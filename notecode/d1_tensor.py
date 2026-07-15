@@ -28,3 +28,19 @@ print(a.grad)
 print(b.grad)
 
 # %%
+x = torch.tensor(2.0, requires_grad=True)
+
+y = x * 3
+z = y + 1
+z.backward()
+print("第一次backward后:", x.grad)
+
+x.grad.zero_()      # 手动清零，PyTorch的Tensor自带这个方法
+print("清零后:", x.grad)
+
+y = x * 3
+z = y + 1
+z.backward()
+print("清零后再backward:", x.grad)
+
+# %%
