@@ -1,4 +1,5 @@
 # Batch Normalization (批归一化)
+- 防止推理时数据受 Batch Size 影响，提升稳定性
 ## BN层的处理为四个步骤
 - 计算当前Batch的均值
 - 计算当前Batch的方差
