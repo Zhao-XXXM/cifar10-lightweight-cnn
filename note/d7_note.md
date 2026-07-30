@@ -16,3 +16,6 @@
 # GPU/CPU 并行原理
 - predicted == labels 是并行向量化比较
 - 它一次性把 64 个元素的向量送入 CPU/GPU 的并行计算单元，在 1 个时钟周期内就得到了 64 个布尔结果 [True, False, True, ...]
+
+# 训练效果
+- ![alt text](image-4.png)
