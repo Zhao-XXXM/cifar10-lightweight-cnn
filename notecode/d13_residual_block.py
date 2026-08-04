@@ -20,7 +20,7 @@ class BasicBlock(nn.Module):
         self.shortcut = nn.Sequential()
 
         # 关键细节：如果输入输出尺寸或通道数不一致（比如 stride=2 进行降采样），
-        # 快捷分支必须使用 1x1 卷积调整维度，才能与 F(x) 相加！
+        # 快捷分支必须使用 1x1 卷积调整维度，才能与 F(x) 相加
         if stride != 1 or in_channels != out_channels:
             self.shortcut = nn.Sequential(
                 nn.Conv2d(in_channels, out_channels, kernel_size=1, stride=stride, bias=False),
