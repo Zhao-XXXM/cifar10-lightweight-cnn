@@ -1,0 +1,4 @@
+﻿model,params,params_m,checkpoint_mb,best_val_acc,best_epoch,final_val_acc,epochs,train_seconds,result_source,acc_per_million_params
+VGG-Slim,815018,0.815018,3.127701759338379,83.15,not_recorded,83.15,not_recorded,not_recorded,checkpoint_eval,102.0222866243445
+LightVGG-Slim,563403,0.563403,2.1808691024780273,72.18,10,72.18,10,not_recorded,history_json,128.11433378948996
+LightVGG-Slim-GAP,37579,0.037579,0.17430591583251953,74.88,10,74.88,10,not_recorded,history_json,1992.602251257351
