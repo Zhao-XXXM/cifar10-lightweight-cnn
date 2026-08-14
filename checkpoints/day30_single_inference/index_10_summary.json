@@ -1,0 +1,75 @@
+{
+  "sample": "CIFAR-10 test index: 10",
+  "true_label": "airplane",
+  "results": [
+    {
+      "width_mult": 0.5,
+      "predictions": [
+        {
+          "rank": 1,
+          "class_id": 0,
+          "class_name": "airplane",
+          "probability": 0.47371944785118103
+        },
+        {
+          "rank": 2,
+          "class_id": 4,
+          "class_name": "deer",
+          "probability": 0.19996722042560577
+        },
+        {
+          "rank": 3,
+          "class_id": 2,
+          "class_name": "bird",
+          "probability": 0.19080395996570587
+        }
+      ]
+    },
+    {
+      "width_mult": 1.0,
+      "predictions": [
+        {
+          "rank": 1,
+          "class_id": 0,
+          "class_name": "airplane",
+          "probability": 0.7450385689735413
+        },
+        {
+          "rank": 2,
+          "class_id": 5,
+          "class_name": "dog",
+          "probability": 0.08038734644651413
+        },
+        {
+          "rank": 3,
+          "class_id": 2,
+          "class_name": "bird",
+          "probability": 0.06255953758955002
+        }
+      ]
+    },
+    {
+      "width_mult": 1.5,
+      "predictions": [
+        {
+          "rank": 1,
+          "class_id": 0,
+          "class_name": "airplane",
+          "probability": 0.9838956594467163
+        },
+        {
+          "rank": 2,
+          "class_id": 3,
+          "class_name": "cat",
+          "probability": 0.005325353238731623
+        },
+        {
+          "rank": 3,
+          "class_id": 4,
+          "class_name": "deer",
+          "probability": 0.004958255682140589
+        }
+      ]
+    }
+  ]
+}

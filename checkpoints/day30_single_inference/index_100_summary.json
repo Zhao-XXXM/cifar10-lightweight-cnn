@@ -1,0 +1,75 @@
+{
+  "sample": "CIFAR-10 test index: 100",
+  "true_label": "deer",
+  "results": [
+    {
+      "width_mult": 0.5,
+      "predictions": [
+        {
+          "rank": 1,
+          "class_id": 4,
+          "class_name": "deer",
+          "probability": 0.5956407785415649
+        },
+        {
+          "rank": 2,
+          "class_id": 7,
+          "class_name": "horse",
+          "probability": 0.368348091840744
+        },
+        {
+          "rank": 3,
+          "class_id": 2,
+          "class_name": "bird",
+          "probability": 0.018758999183773994
+        }
+      ]
+    },
+    {
+      "width_mult": 1.0,
+      "predictions": [
+        {
+          "rank": 1,
+          "class_id": 7,
+          "class_name": "horse",
+          "probability": 0.7348917126655579
+        },
+        {
+          "rank": 2,
+          "class_id": 4,
+          "class_name": "deer",
+          "probability": 0.16557687520980835
+        },
+        {
+          "rank": 3,
+          "class_id": 5,
+          "class_name": "dog",
+          "probability": 0.059563279151916504
+        }
+      ]
+    },
+    {
+      "width_mult": 1.5,
+      "predictions": [
+        {
+          "rank": 1,
+          "class_id": 4,
+          "class_name": "deer",
+          "probability": 0.8822533488273621
+        },
+        {
+          "rank": 2,
+          "class_id": 7,
+          "class_name": "horse",
+          "probability": 0.11074278503656387
+        },
+        {
+          "rank": 3,
+          "class_id": 2,
+          "class_name": "bird",
+          "probability": 0.005910607520490885
+        }
+      ]
+    }
+  ]
+}

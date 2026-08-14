@@ -1,0 +1,75 @@
+{
+  "sample": "CIFAR-10 test index: 0",
+  "true_label": "cat",
+  "results": [
+    {
+      "width_mult": 0.5,
+      "predictions": [
+        {
+          "rank": 1,
+          "class_id": 3,
+          "class_name": "cat",
+          "probability": 0.6424228549003601
+        },
+        {
+          "rank": 2,
+          "class_id": 5,
+          "class_name": "dog",
+          "probability": 0.26350048184394836
+        },
+        {
+          "rank": 3,
+          "class_id": 9,
+          "class_name": "truck",
+          "probability": 0.04318038746714592
+        }
+      ]
+    },
+    {
+      "width_mult": 1.0,
+      "predictions": [
+        {
+          "rank": 1,
+          "class_id": 3,
+          "class_name": "cat",
+          "probability": 0.9243628978729248
+        },
+        {
+          "rank": 2,
+          "class_id": 5,
+          "class_name": "dog",
+          "probability": 0.06608040630817413
+        },
+        {
+          "rank": 3,
+          "class_id": 6,
+          "class_name": "frog",
+          "probability": 0.009137282148003578
+        }
+      ]
+    },
+    {
+      "width_mult": 1.5,
+      "predictions": [
+        {
+          "rank": 1,
+          "class_id": 3,
+          "class_name": "cat",
+          "probability": 0.66366046667099
+        },
+        {
+          "rank": 2,
+          "class_id": 5,
+          "class_name": "dog",
+          "probability": 0.25690892338752747
+        },
+        {
+          "rank": 3,
+          "class_id": 6,
+          "class_name": "frog",
+          "probability": 0.07705212384462357
+        }
+      ]
+    }
+  ]
+}

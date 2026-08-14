@@ -1,0 +1,75 @@
+{
+  "sample": "CIFAR-10 test index: 1",
+  "true_label": "ship",
+  "results": [
+    {
+      "width_mult": 0.5,
+      "predictions": [
+        {
+          "rank": 1,
+          "class_id": 8,
+          "class_name": "ship",
+          "probability": 0.9665408730506897
+        },
+        {
+          "rank": 2,
+          "class_id": 1,
+          "class_name": "automobile",
+          "probability": 0.026610981673002243
+        },
+        {
+          "rank": 3,
+          "class_id": 9,
+          "class_name": "truck",
+          "probability": 0.00362668395973742
+        }
+      ]
+    },
+    {
+      "width_mult": 1.0,
+      "predictions": [
+        {
+          "rank": 1,
+          "class_id": 8,
+          "class_name": "ship",
+          "probability": 0.9482049345970154
+        },
+        {
+          "rank": 2,
+          "class_id": 1,
+          "class_name": "automobile",
+          "probability": 0.02843167632818222
+        },
+        {
+          "rank": 3,
+          "class_id": 0,
+          "class_name": "airplane",
+          "probability": 0.023184875026345253
+        }
+      ]
+    },
+    {
+      "width_mult": 1.5,
+      "predictions": [
+        {
+          "rank": 1,
+          "class_id": 8,
+          "class_name": "ship",
+          "probability": 0.9973593354225159
+        },
+        {
+          "rank": 2,
+          "class_id": 1,
+          "class_name": "automobile",
+          "probability": 0.0020001798402518034
+        },
+        {
+          "rank": 3,
+          "class_id": 0,
+          "class_name": "airplane",
+          "probability": 0.0006200075149536133
+        }
+      ]
+    }
+  ]
+}
