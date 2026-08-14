@@ -1,0 +1,4 @@
+﻿width_mult,channels,epochs,batch_size,lr,seed,params,params_m,checkpoint_mb,best_val_acc,best_epoch,final_val_acc,train_seconds,acc_per_million_params,history_path,checkpoint_path
+0.5,"(16, 32, 64)",10,64,0.001,42,10875,0.010875,0.06496143341064453,68.62,10,68.62,615.2688009000121,6309.885057471265,checkpoints\day28_width_models\width_0_5\history.json,checkpoints\day28_width_models\width_0_5\best.pth
+1.0,"(32, 64, 128)",10,64,0.001,42,37579,0.037579,0.16975879669189453,74.88,10,74.88,978.9202203000023,1992.602251257351,checkpoints\day28_width_models\width_1_0\history.json,checkpoints\day28_width_models\width_1_0\best.pth
+1.5,"(48, 96, 192)",10,64,0.001,42,80155,0.080155,0.33510303497314453,75.52,10,75.52,1882.8812779,942.1745368348824,checkpoints\day28_width_models\width_1_5\history.json,checkpoints\day28_width_models\width_1_5\best.pth
