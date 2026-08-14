@@ -1,0 +1,13 @@
+{
+  "width_mult": 1.5,
+  "correct": 7552,
+  "total": 10000,
+  "accuracy": 75.52,
+  "worst_class": "cat",
+  "worst_class_accuracy": 59.3,
+  "top_confused_pair": {
+    "true_class": "dog",
+    "predicted_class": "cat",
+    "count": 177
+  }
+}
