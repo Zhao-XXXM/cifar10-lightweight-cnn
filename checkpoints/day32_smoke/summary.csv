@@ -1,0 +1,2 @@
+﻿width_mult,channels,split_seed,split_sha256,training_seed,train_size,val_size,epochs,batch_size,lr,params,checkpoint_mb,best_val_acc,best_epoch,final_val_acc,train_seconds,official_test_evaluated,history_path,checkpoint_path
+0.5,"(16, 32, 64)",42,6242d545f1d70bbd004ba26cd92784461728e0ffb0a64a1f27d1a6421039967e,42,45000,5000,1,64,0.001,10875,0.06496143341064453,46.32,1,46.32,60.379219500002364,False,checkpoints\day32_smoke\width_0_5\history.json,checkpoints\day32_smoke\width_0_5\best.pth
