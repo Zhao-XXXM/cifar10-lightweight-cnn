@@ -1,0 +1,38 @@
+[
+  {
+    "width_mult": 0.5,
+    "channels": "(16, 32, 64)",
+    "params": 10875,
+    "params_m": 0.010875,
+    "fp32_size_mb": 0.041484832763671875,
+    "macs": 1439360,
+    "macs_m": 1.43936,
+    "flops": 2878720,
+    "flops_m": 2.87872,
+    "input_shape": "1x3x32x32"
+  },
+  {
+    "width_mult": 1.0,
+    "channels": "(32, 64, 128)",
+    "params": 37579,
+    "params_m": 0.037579,
+    "fp32_size_mb": 0.14335250854492188,
+    "macs": 4948224,
+    "macs_m": 4.948224,
+    "flops": 9896448,
+    "flops_m": 9.896448,
+    "input_shape": "1x3x32x32"
+  },
+  {
+    "width_mult": 1.5,
+    "channels": "(48, 96, 192)",
+    "params": 80155,
+    "params_m": 0.080155,
+    "fp32_size_mb": 0.3057670593261719,
+    "macs": 10554240,
+    "macs_m": 10.55424,
+    "flops": 21108480,
+    "flops_m": 21.10848,
+    "input_shape": "1x3x32x32"
+  }
+]
