@@ -1,0 +1,2 @@
+﻿width_mult,batch_size,device,num_threads,warmup,repeats,median_batch_ms,p95_batch_ms,median_per_image_ms,throughput_images_s
+1.0,1,cpu,1,2,5,2.421,2.6703,2.421,413.0524576621231
