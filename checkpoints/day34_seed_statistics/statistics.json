@@ -1,0 +1,52 @@
+{
+  "width_mult": 1.0,
+  "training_seeds": [
+    42,
+    123,
+    2026
+  ],
+  "split_sha256": "6242d545f1d70bbd004ba26cd92784461728e0ffb0a64a1f27d1a6421039967e",
+  "official_test_evaluated": false,
+  "statistics": [
+    {
+      "metric": "best_val_acc",
+      "n": 3,
+      "mean": 73.84,
+      "sample_std": 1.2999999999999998,
+      "min": 73.04,
+      "max": 75.34,
+      "range": 2.299999999999997,
+      "cv_percent": 1.7605633802816896
+    },
+    {
+      "metric": "final_val_acc",
+      "n": 3,
+      "mean": 73.56666666666666,
+      "sample_std": 1.5362725452644592,
+      "min": 72.64,
+      "max": 75.34,
+      "range": 2.700000000000003,
+      "cv_percent": 2.088272603440588
+    },
+    {
+      "metric": "best_epoch",
+      "n": 3,
+      "mean": 8.666666666666666,
+      "sample_std": 1.5275252316519468,
+      "min": 7.0,
+      "max": 10.0,
+      "range": 3.0,
+      "cv_percent": 17.62529113444554
+    },
+    {
+      "metric": "train_seconds",
+      "n": 3,
+      "mean": 898.4819060333344,
+      "sample_std": 115.81336649627455,
+      "min": 826.2208556999976,
+      "max": 1032.0623737999995,
+      "range": 205.84151810000185,
+      "cv_percent": 12.88989413349163
+    }
+  ]
+}

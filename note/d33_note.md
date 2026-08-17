@@ -67,7 +67,9 @@
 - 冒烟测试使用 `seed=42` 和 1 Epoch，Train Acc 为 45.92%，Val Acc 为 54.98%，与 Day32 同配置第 1 轮结果一致
 - 冒烟测试确认按种子保存 checkpoint、history 和 summary，且 `official_test_evaluated=False`
 - 冒烟测试只验证复现链路，不参与正式多种子统计
-- 记录三个训练种子的最佳 Val Acc、最佳 Epoch 和训练时间
-- 检查三个结果的 `split_sha256` 完全一致
-- 检查 `official_test_evaluated` 全部为 `False`
+- `seed=42`：最佳 Val Acc 为 73.04%，最佳 Epoch 为 7，最终 Val Acc 为 72.64%，训练耗时约 826.22 秒
+- `seed=123`：最佳 Val Acc 为 75.34%，最佳 Epoch 为 10，最终 Val Acc 为 75.34%，训练耗时约 837.16 秒
+- `seed=2026`：最佳 Val Acc 为 73.14%，最佳 Epoch 为 9，最终 Val Acc 为 72.72%，训练耗时约 1032.06 秒
+- 三个结果的 `split_sha256` 完全一致，`official_test_evaluated` 全部为 `False`
+- 三个种子的最佳 Val Acc 最高与最低相差 2.30 个百分点，说明单次训练结果存在不可忽略的随机波动
 - 不在 Day33 直接下最终结论，Day34 统一计算均值、标准差并绘图

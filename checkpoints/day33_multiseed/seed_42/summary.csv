@@ -1,0 +1,2 @@
+﻿width_mult,channels,split_seed,split_sha256,training_seed,train_size,val_size,epochs,batch_size,lr,params,checkpoint_mb,best_val_acc,best_epoch,final_val_acc,train_seconds,official_test_evaluated,history_path,checkpoint_path
+1.0,"(32, 64, 128)",42,6242d545f1d70bbd004ba26cd92784461728e0ffb0a64a1f27d1a6421039967e,42,45000,5000,10,64,0.001,37579,0.16975879669189453,73.04,7,72.64,826.2208556999976,False,checkpoints\day33_multiseed\seed_42\width_1_0\history.json,checkpoints\day33_multiseed\seed_42\width_1_0\best.pth
