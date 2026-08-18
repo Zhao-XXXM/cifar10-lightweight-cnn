@@ -1,0 +1,4 @@
+﻿width_mult,channels,reduction,baseline_params,se_params,se_total_params,added_params,added_ratio_percent,baseline_output_shape,se_output_shape
+0.5,"(16, 32, 64)",16,10875,1582,12457,1582,14.547126436781609,"(2, 10)","(2, 10)"
+1.0,"(32, 64, 128)",16,37579,5852,43431,5852,15.572527209345646,"(2, 10)","(2, 10)"
+1.5,"(48, 96, 192)",16,80155,12810,92965,12810,15.981535774437027,"(2, 10)","(2, 10)"
