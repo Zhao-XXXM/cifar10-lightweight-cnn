@@ -1,0 +1,2 @@
+﻿model,training_seed,width_mult,reduction,params,split_seed,split_sha256,train_size,val_size,epochs,batch_size,lr,best_val_acc,best_epoch,final_val_acc,train_seconds,official_test_evaluated,history_path,checkpoint_path
+SE,42,1.0,16,43431,42,6242d545f1d70bbd004ba26cd92784461728e0ffb0a64a1f27d1a6421039967e,45000,5000,1,64,0.001,55.82,1,55.82,100.82908529999986,False,checkpoints\day38_smoke\se\seed_42\history.json,checkpoints\day38_smoke\se\seed_42\best.pth

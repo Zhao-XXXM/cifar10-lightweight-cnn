@@ -1,0 +1,3 @@
+﻿model,n,mean_best_val_acc,sample_std_best_val_acc,min_best_val_acc,max_best_val_acc,mean_train_seconds
+Baseline,3,73.84,1.2999999999999998,73.04,75.34,898.4819060333344
+SE,3,73.49333333333334,1.5044378795195679,72.06,75.06,1062.6844018666682
