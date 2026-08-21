@@ -1,0 +1,4 @@
+﻿model,width_mult,training_seed,checkpoint,test_loss,test_accuracy,correct,total,official_test_evaluated
+Baseline,1.0,42,checkpoints\day33_multiseed\seed_42\width_1_0\best.pth,0.8275958635330201,71.26,7126,10000,True
+Baseline,1.0,123,checkpoints\day33_multiseed\seed_123\width_1_0\best.pth,0.7547300750732422,74.1,7410,10000,True
+Baseline,1.0,2026,checkpoints\day33_multiseed\seed_2026\width_1_0\best.pth,0.8021038499832154,72.71,7271,10000,True
