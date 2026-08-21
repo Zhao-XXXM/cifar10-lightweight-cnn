@@ -1,0 +1,4 @@
+﻿model,width_mult,accuracy_mean,params,flops_m,batch1_median_ms,reliability,pareto_optimal
+Baseline,0.5,67.56,10875,2.87872,1.5658500000000002,single_seed_exploratory,True
+Baseline,1.0,73.84,37579,9.896448,1.9773999999999998,multi_seed,True
+Baseline,1.5,74.72,80155,21.10848,2.52105,single_seed_exploratory,True

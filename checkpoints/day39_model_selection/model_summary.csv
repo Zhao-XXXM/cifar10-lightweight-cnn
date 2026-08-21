@@ -1,0 +1,4 @@
+﻿model,width_mult,accuracy_mean,accuracy_std,accuracy_min,accuracy_max,accuracy_source,seed_count,training_seeds,reliability,params,params_m,macs_m,flops_m,batch1_median_ms,batch1_p95_ms,batch1_throughput_images_s,mean_train_seconds,official_test_evaluated
+Baseline,0.5,67.56,0.0,67.56,67.56,Day32 single seed,1,42,single_seed_exploratory,10875,0.010875,1.43936,2.87872,1.5658500000000002,1.7287,638.6307756170769,531.6842892999994,False
+Baseline,1.0,73.84,1.2999999999999998,73.04,75.34,Day33 three seeds,3,"42,123,2026",multi_seed,37579,0.037579,4.948224,9.896448,1.9773999999999998,2.227,505.7145746940427,898.4819060333344,False
+Baseline,1.5,74.72,0.0,74.72,74.72,Day32 single seed,1,42,single_seed_exploratory,80155,0.080155,10.55424,21.10848,2.52105,2.8574,396.6601217746574,6641.806935999997,False

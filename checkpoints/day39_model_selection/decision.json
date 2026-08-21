@@ -1,0 +1,13 @@
+{
+  "recommended_model": "Baseline width=1.0",
+  "reason": "It is the highest-width candidate with a three-seed result, while keeping parameters and CPU latency far below width=1.5.",
+  "alternative_for_strict_latency": "Baseline width=0.5",
+  "not_selected": {
+    "width=1.5": "Only one seed and much higher cost; needs a proper multi-seed rerun.",
+    "width=1.0+SE": "Mean validation accuracy decreased by 0.35 percentage points."
+  },
+  "se_mean_best_val_acc": 73.49333333333334,
+  "se_sample_std_best_val_acc": 1.5044378795195679,
+  "official_test_evaluated": false,
+  "split_sha256": "6242d545f1d70bbd004ba26cd92784461728e0ffb0a64a1f27d1a6421039967e"
+}
